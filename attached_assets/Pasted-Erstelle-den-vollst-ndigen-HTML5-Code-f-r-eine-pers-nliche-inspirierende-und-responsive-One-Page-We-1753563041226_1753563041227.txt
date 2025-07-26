@@ -1,0 +1,45 @@
+Erstelle den vollständigen HTML5-Code für eine persönliche, inspirierende und responsive One-Page-Webseite für Gerald Weiß. Die Seite soll seine Methoden zur persönlichen und politischen Veränderung vorstellen. Die Struktur soll wie folgt aussehen:
+
+1.  **Header (`<header>`):**
+    *   Logo-Bereich mit dem Text: "Gerald Weiß - Der Weg des Herzens".
+    *   Navigation (`<nav>`) mit den Links: "Home", "Über Mich", "Erfolge", "Methoden", "Kontakt".
+
+2.  **Hero-Sektion (`<section id="home">`):**
+    *   Diese Sektion soll als bildschirmfüllender "Opener" dienen und ein inspirierendes Hintergrundbild haben. Bitte verwende einen Platzhalter für die Bild-URL.
+    *   Darüber soll der folgende Text zentriert und gut lesbar platziert werden:
+        *   Hauptüberschrift (`<h1>`): "Wie wir auf magische Weise Wunder in unser Leben ziehen."
+        *   Unterüberschrift (`<p>`): "Ich zeige Ihnen Techniken, mit denen Sie persönliche und politische Gegebenheiten verändern können – nicht mit dem Verstand, sondern mit der Kraft Ihres Herzens."
+        *   Ein auffälliger Call-to-Action-Button (`<a>`), der zur "Erfolge"-Sektion springt: "Zu den Erfolgsgeschichten".
+
+3.  **Über-Mich-Sektion (`<section id="ueber-mich">`):**
+    *   Überschrift (`<h2>`): "Mein Weg: Gerald Weiß"
+    *   Zwei Spalten:
+        *   Links: Ein rundes Portraitfoto. Verwende den Platzhalter "[URL zu einem Portraitfoto]".
+        *   Rechts: Der Text: "Seit fast 20 Jahren arbeite ich als Teamtrainer und Coach mit diesen wirkungsvollen Techniken. Ich habe sie bei Einzelpersonen, Schulklassen und in Firmen angewendet und dabei immer wieder erlebt, was für wunderbare Veränderungen möglich sind. Nachdem ich Politik studiert habe, kam mir die Idee, diese Methoden auch auf politische Themen anzuwenden – mit erstaunlichen Ergebnissen."
+
+4.  **Prinzip-Sektion (`<section id="prinzip">`):**
+    *   Überschrift (`<h2>`): "Warum diese Techniken funktionieren"
+    *   Text: "Allen diesen Techniken ist gemeinsam, dass wir unser Herz und unsere Emotionen nutzen. Dadurch erhalten wir eine Ausstrahlung, die auf magische Weise das anzieht, was für alle Beteiligten mehr Lebensfreude kreiert. Wissenschaftler wie Rupert Sheldrake haben das 'morphogenetische Feld' beschrieben, das uns alle energetisch verbindet. Wenn wir aus reiner, urteilsfreier Liebe handeln, wird diese Verbindung zur stärksten Kraft für Veränderung."
+
+5.  **Erfolgs-Sektion (`<section id="erfolge">`):**
+    *   Überschrift (`<h2>`): "Wunder in der Praxis: Zwei wahre Geschichten"
+    *   Ein Container mit zwei klar getrennten Erfolgsgeschichten:
+        *   **Geschichte 1:** Titel (`<h3>`): "Politik auf Herzensebene: Das gerettete Dorfgemeinschaftshaus". Beschreibung (`<p>`): "Ein Dorfgemeinschaftshaus sollte gegen den Willen der Bevölkerung verkauft werden. In nur einer Sitzung mit einem Dorfbewohner wendeten wir diese Techniken an, um die bereits getroffene Entscheidung des Magistrats energetisch zu heilen. Am nächsten Tag wurde die Entscheidung tatsächlich zurückgenommen – das Haus blieb im Dorfbesitz."
+        *   **Geschichte 2:** Titel (`<h3>`): "Persönlicher Wandel: Von der Ausnutzung zur Wertschätzung". Beschreibung (`<p>`): "Eine Bekannte wurde in ihrem 450-Euro-Job ausgenutzt und arbeitete fast Vollzeit. Wir arbeiteten imaginär mit ihrem Chef, ohne dass dieser anwesend war. Bereits am nächsten Tag kam er auf sie zu, entschuldigte sich für sein schlechtes Gewissen und bot ihr eine Vollzeitstelle an."
+
+6.  **Methoden-Sektion (`<section id="methoden">`):**
+    *   Überschrift (`<h2>`): "Ihre Werkzeuge für den Wandel"
+    *   Ein Container mit drei "Methoden-Karten":
+        *   **Karte 1:** Titel (`<h3>`): "Gewaltfreie Kommunikation (GFK)". Beschreibung: "Die Kunst, Probleme zu beschreiben und dabei die eigenen Gefühle, Bedürfnisse und Wünsche klar auszudrücken, um eine Verbindung herzustellen, statt Widerstand zu erzeugen."
+        *   **Karte 2:** Titel (`<h3>`): "Ho'oponopono & The Work". Beschreibung: "Uralte und moderne Vergebungstechniken, die dabei helfen, den eigenen Anteil an einem Problem zu erkennen und es in sich selbst zu heilen, um im Außen eine Veränderung zu bewirken."
+        *   **Karte 3:** Titel (`<h3>`): "Emotional Freedom Technique (EFT)". Beschreibung: "Eine kraftvolle Klopfakupressur-Technik, um emotionale Blockaden zu lösen und die eigene Energie wieder ins Fließen zu bringen, was zu Klarheit und innerer Stärke führt."
+
+7.  **Kontakt-Sektion (`<section id="kontakt">`):**
+    *   Überschrift (`<h2>`): "Beginnen Sie Ihre Reise"
+    *   Einleitungstext (`<p>`): "Diese Techniken stelle ich Ihnen gratis zur Verfügung, damit jeder Mensch ähnliche Wunder für sich erleben kann. Wenn Sie den Prozess begleiten lassen möchten oder Fragen haben, freue ich mich auf Ihre Nachricht."
+    *   Kontaktformular mit den Feldern: "Name", "E-Mail", "Nachricht" und "Senden"-Button.
+    *   Kontaktinfo: "[Deine E-Mail-Adresse]".
+
+8.  **Footer (`<footer>`):**
+    *   Copyright: "© 2024 Gerald Weiß | Gutes Leben e.V.".
+    *   Links zu "Impressum" und "Datenschutz".
