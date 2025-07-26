@@ -117,45 +117,55 @@ nav a.active::after {
     width: 100%;
 }
 
-/* Hero Section - Almost full viewport height */
+/* Hero Section - Almost full viewport height with background image */
 .hero {
-    min-height: 90vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, #F5F5F5 0%, #FFFFFF 100%);
     padding: 120px 0 60px;
 }
 
 .hero .container {
     max-width: 900px;
-}
-
-.video-placeholder {
-    background-color: #F5F5F5;
-    border: 2px dashed #2E8B57;
-    border-radius: 10px;
-    padding: 60px 20px;
-    margin-bottom: 40px;
-    color: #2E8B57;
-    font-size: 1.1rem;
+    position: relative;
+    z-index: 2;
 }
 
 .hero h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
-    color: #333333;
+    color: #FFFFFF;
     margin-bottom: 20px;
     line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .subtitle {
     font-size: 1.3rem;
-    color: #666666;
+    color: #FFFFFF;
     margin-bottom: 40px;
     line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
 .cta-button {
@@ -492,6 +502,10 @@ footer {
     /* Hero section mobile */
     .hero {
         min-height: 80vh;
+        background-attachment: scroll;
+    }
+    
+    .hero-overlay {
         padding: 100px 0 50px;
     }
     
