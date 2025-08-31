@@ -6,7 +6,7 @@ channel = "stable-24_11"
 packages = ["static-web-server"]
 
 [deployment]
-publicDir = "/"
+publicDir = "./"
 deploymentTarget = "static"
 run = ["sh", "-c", "static-web-server --host 0.0.0.0 --port $PORT --root ./"]
 
