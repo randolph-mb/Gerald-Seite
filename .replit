@@ -8,6 +8,7 @@ packages = ["static-web-server"]
 [deployment]
 publicDir = "/"
 deploymentTarget = "static"
+run = ["sh", "-c", "static-web-server --host 0.0.0.0 --port $PORT --root ./"]
 
 [workflows]
 runButton = "Serve static"
